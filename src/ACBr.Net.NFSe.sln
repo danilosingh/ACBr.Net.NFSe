@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACBr.Net.NFSe.Demo", "ACBr.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACBr.Net.NFSe.DANFSe.FastReport", "ACBr.Net.NFSe.DANFSe.FastReport\ACBr.Net.NFSe.DANFSe.FastReport.csproj", "{BA9DBAB3-31F1-4D98-AD4D-CD73CF0B6921}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACBr.Net.NFSe.DANFSe.FastReport.Core", "ACBr.Net.NFSe.DANFSe.FastReport.Core\ACBr.Net.NFSe.DANFSe.FastReport.Core.csproj", "{35C0F6DF-DE4D-4ABB-BA82-6797958B759F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACBr.Net.NFSe.Demo.Core", "ACBr.Net.NFSe.Demo.Core\ACBr.Net.NFSe.Demo.Core.csproj", "{37A6A575-E8D0-4791-B10B-F0DD92CACCEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{BA9DBAB3-31F1-4D98-AD4D-CD73CF0B6921}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA9DBAB3-31F1-4D98-AD4D-CD73CF0B6921}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA9DBAB3-31F1-4D98-AD4D-CD73CF0B6921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C0F6DF-DE4D-4ABB-BA82-6797958B759F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C0F6DF-DE4D-4ABB-BA82-6797958B759F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C0F6DF-DE4D-4ABB-BA82-6797958B759F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C0F6DF-DE4D-4ABB-BA82-6797958B759F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37A6A575-E8D0-4791-B10B-F0DD92CACCEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37A6A575-E8D0-4791-B10B-F0DD92CACCEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37A6A575-E8D0-4791-B10B-F0DD92CACCEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37A6A575-E8D0-4791-B10B-F0DD92CACCEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
