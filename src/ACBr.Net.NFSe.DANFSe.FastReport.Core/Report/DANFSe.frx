@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Report ScriptLanguage="CSharp" ReferencedAssemblies="System.dll&#13;&#10;System.Drawing.dll&#13;&#10;System.Windows.Forms.dll&#13;&#10;System.Data.dll&#13;&#10;System.Xml.dll&#13;&#10;ACBr.Net.Core.dll&#13;&#10;ACBr.Net.DFe.Core.dll&#13;&#10;ACBr.Net.NFSe.dll&#13;&#10;ACBr.Net.NFSe.DANFSe.FastReport.Core.dll" ReportInfo.Created="03/21/2017 02:41:33" ReportInfo.Modified="10/17/2020 11:44:53" ReportInfo.CreatorVersion="2020.4.0.0" PrintSettings.Copies="0" PrintSettings.ShowDialog="false">
+<Report ScriptLanguage="CSharp" ReferencedAssemblies="System.dll&#13;&#10;System.Drawing.dll&#13;&#10;System.Windows.Forms.dll&#13;&#10;System.Data.dll&#13;&#10;System.Xml.dll&#13;&#10;ACBr.Net.Core.dll&#13;&#10;ACBr.Net.DFe.Core.dll&#13;&#10;ACBr.Net.NFSe.dll&#13;&#10;ACBr.Net.NFSe.DANFSe.FastReport.Core.dll" ReportInfo.Created="03/21/2017 02:41:33" ReportInfo.Modified="10/26/2020 10:27:18" ReportInfo.CreatorVersion="2020.4.0.0" PrintSettings.Copies="0" PrintSettings.ShowDialog="false">
   <ScriptText>
     using System;
     using System.Collections;
@@ -401,18 +401,18 @@
           <TextObject Name="Memo31" Left="81.23" Top="110.53" Width="631.18" Height="15.12" Text="[NotaServico.Tomador.Endereco.Complemento]" Padding="2, 1, 2, 1" Font="Arial, 8pt, style=Bold"/>
           <TextObject Name="Memo61" Left="1.1" Top="91.29" Width="75.59" Height="15.12" Text="MUNICÍPIO" Padding="2, 1, 2, 1" VertAlign="Center" Font="Arial, 6pt"/>
           <TextObject Name="Memo26" Left="80.47" Top="91.29" Width="328.82" Height="15.12" Text="[NotaServico.Tomador.Endereco.Municipio]" Padding="2, 1, 2, 1" Font="Arial, 8pt, style=Bold"/>
-          <TextObject Name="Memo24" Left="421.76" Top="91.29" Width="75.59" Height="15.12" Text="TELEFONE" Padding="2, 1, 2, 1" VertAlign="Center" Font="Arial, 6pt"/>
-          <TextObject Name="Memo27" Left="503.56" Top="91.29" Width="207.87" Height="15.12" Text="[NotaServico.Tomador.DadosContato.Telefone]" Padding="2, 1, 2, 1" Font="Arial, 8pt, style=Bold"/>
+          <TextObject Name="Memo24" Left="418.76" Top="91.29" Width="75.59" Height="15.12" Text="TELEFONE" Padding="2, 1, 2, 1" VertAlign="Center" Font="Arial, 6pt"/>
+          <TextObject Name="Memo27" Left="523.56" Top="91.29" Width="186.87" Height="15.12" Text="[NotaServico.Tomador.DadosContato.Telefone]" Padding="2, 1, 2, 1" Font="Arial, 8pt, style=Bold"/>
           <TextObject Name="Memo60" Left="1.1" Top="72.4" Width="75.59" Height="15.12" Text="ENDEREÇO" Padding="2, 1, 2, 1" VertAlign="Center" Font="Arial, 6pt"/>
           <TextObject Name="Memo21" Left="80.47" Top="72.4" Width="631.18" Height="15.12" Text="[NotaServico.Tomador.Endereco.Logradouro], [NotaServico.Tomador.Endereco.Numero]" Padding="2, 1, 2, 1" Font="Arial, 8pt, style=Bold"/>
           <TextObject Name="Memo43" Left="1.1" Top="53.5" Width="75.59" Height="15.12" Text="NOME / RAZÃO" Padding="2, 1, 2, 1" VertAlign="Center" Font="Arial, 6pt"/>
-          <TextObject Name="Memo12" Left="80.47" Top="53.5" Width="362.83" Height="15.12" Text="[NotaServico.Tomador.RazaoSocial]" Padding="2, 1, 2, 1" Font="Arial, 8pt, style=Bold"/>
-          <TextObject Name="Memo80" Left="445.99" Top="53.5" Width="43.47" Height="15.12" Text="E-MAIL" Padding="2, 1, 2, 1" VertAlign="Center" Font="Arial, 6pt"/>
-          <TextObject Name="Memo91" Left="492.68" Top="53.5" Width="219.21" Height="15.12" Text="[NotaServico.Tomador.DadosContato.Email]" Padding="2, 1, 2, 1" Font="Arial, 8pt, style=Bold"/>
-          <TextObject Name="Memo63" Left="421.94" Top="34.6" Width="113.39" Height="15.12" Text="INSCRIÇÃO MUNICIPAL" Padding="2, 1, 2, 1" VertAlign="Center" Font="Arial, 6pt"/>
+          <TextObject Name="Memo12" Left="80.47" Top="53.5" Width="325.03" Height="15.12" Text="[NotaServico.Tomador.RazaoSocial]" Padding="2, 1, 2, 1" Font="Arial, 8pt, style=Bold"/>
+          <TextObject Name="Memo80" Left="417.99" Top="53.5" Width="81.27" Height="15.12" Text="E-MAIL" Padding="2, 1, 2, 1" VertAlign="Center" Font="Arial, 6pt"/>
+          <TextObject Name="Memo91" Left="522.48" Top="53.5" Width="189.21" Height="15.12" Text="[NotaServico.Tomador.DadosContato.Email]" Padding="2, 1, 2, 1" Font="Arial, 8pt, style=Bold"/>
+          <TextObject Name="Memo63" Left="416.94" Top="34.6" Width="99.39" Height="15.12" Text="INSCRIÇÃO MUNICIPAL" Padding="2, 1, 2, 1" VertAlign="Center" Font="Arial, 6pt"/>
           <TextObject Name="Memo62" Left="1.1" Top="34.6" Width="75.59" Height="15.12" Text="CPF / CNPJ" Padding="2, 1, 2, 1" VertAlign="Center" Font="Arial, 6pt"/>
           <TextObject Name="tomadorCPFCNPJ" Left="80.47" Top="34.6" Width="222.99" Height="15.12" BeforePrintEvent="tomadorCPFCNPJ_BeforePrint" Padding="2, 1, 2, 1" Font="Arial, 8pt, style=Bold"/>
-          <TextObject Name="Memo40" Left="538.35" Top="34.6" Width="173.86" Height="15.12" Text="[NotaServico.Tomador.InscricaoMunicipal]" Padding="2, 1, 2, 1" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/>
+          <TextObject Name="Memo40" Left="521.35" Top="34.6" Width="191.86" Height="15.12" Text="[NotaServico.Tomador.InscricaoMunicipal]" Padding="2, 1, 2, 1" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/>
           <TextObject Name="Memo113" Left="2.99" Top="0.43" Width="714.33" Height="18.9" Fill.Color="White" Text="TOMADOR DE SERVIÇOS" Padding="0, 1, 0, 1" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
           <ChildBand Name="Child1" Top="334.93" Width="718.2" Height="26.46" Border.Lines="All" Guides="0">
             <TextObject Name="Memo58" Left="5.78" Top="10.2" Width="347.72" Height="15.12" Text="[MunicipioPrestador]" Padding="2, 1, 2, 1" HorzAlign="Center" Font="Arial, 9pt, style=Bold"/>

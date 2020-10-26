@@ -1,5 +1,4 @@
 ﻿using System;
-using ACBr.Net.NFSe.Providers;
 
 namespace ACBr.Net.NFSe.DANFSe.FastReport.Core
 {
@@ -28,6 +27,11 @@ namespace ACBr.Net.NFSe.DANFSe.FastReport.Core
         /// </summary>
         /// <value>The file path.</value>
         public string FilePath { get; set; }
+
+        /// <summary>
+        /// Define ou retorna o binário do FastReport.
+        /// </summary>
+        public byte[] FileBinary { get; set; }
 
         #endregion Propriedades
     }

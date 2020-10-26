@@ -141,7 +141,7 @@ namespace ACBr.Net.NFSe.DANFSe.FastReport.Core
         {
             var e = new DANFSeEventArgs(Layout);
             OnGetReport.Raise(this, e);
-            if (e.FilePath.IsEmpty() || !File.Exists(e.FilePath))
+            if ((e.FilePath.IsEmpty() || !File.Exists(e.FilePath)) && (e.FileBinary == null || e.FileBinary.Length == 0))
             {
                 MemoryStream ms;
 
